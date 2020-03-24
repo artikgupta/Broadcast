@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -125,4 +126,40 @@ margin-top: 5em;
 .wrapper.style1 {
     background-color: #062038;
     color: #c1c7cd;
+}
+
+.wrap h2{
+    font-size: 2.25rem;
+   font-family: 'Signika', sans-serif;
+   align-items: center;
+   text-align: center;
+   margin-top:2rem;
+}
+.wrap p{
+   font-size: 1.25rem;
+   font-family: 'Signika', sans-serif;
+   align-items: center;
+   text-align: center;
+   margin-top:2rem; 
+   margin-bottom:2rem; 
+
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.column{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.wrapper.fit{
+    width:20em;
+    height:auto;
+}
+.fit img{
+    width: 100%;
 }
