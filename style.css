@@ -75,6 +75,9 @@ header {
     color: white;
     z-index: 1001;
 }
+
+
+
  #videolayout{
     min-width:100%;
     min-height: 100%;
@@ -83,6 +86,7 @@ header {
     align-items: center;
     overflow: :hidden;
 }
+
 .overlay{
     width:100%;
     height: 100%;
@@ -115,7 +119,9 @@ margin-top: 5em;
 .wrapper.style1 {
     background-color: #062038;
     margin: 0 auto;
+    border:1px solid #062038;
 }
+
 
 .wrap h2{
     font-size: 2.25rem;
@@ -124,6 +130,7 @@ margin-top: 5em;
    text-align: center;
    margin-top:2rem;
 }
+
 .wrap p{
    font-size: 1.25rem;
    font-family: 'Signika', sans-serif;
@@ -136,7 +143,9 @@ margin-top: 5em;
 .video{
     display: flex;
     justify-content: space-around;
-    
+    margin:0;
+    /*margin-left: 2rem;*/
+    /*margin-right: 2rem;*/
 }
 
 .column{
@@ -144,12 +153,13 @@ margin-top: 5em;
     justify-content: space-between;
     flex-direction: column;
 
+
 }
 .fit{
-    width:40em;
-    padding: 2rem;
+    width:36em;
 }
 .fit img{
+    display: block;
     width: 100%;
 }
 .caption p{
@@ -158,8 +168,75 @@ margin-top: 5em;
    display: grid;
    align-items: center;
    text-align: center;
-   background-color: #020B13;
-    color: #fff;
-    width:37rem;
-    padding-bottom: 2rem; 
+   background-color:#182E41;
+    color: #e5e5e5;
+    width:36rem;
+    padding: 2rem; 
+}
+.caption{
+    display: flex;
+    justify-content: center;   
+    margin-bottom: 2rem;
+    color: #c1c7cd;
+}
+.container{
+  margin: 5rem;
+  /*background-color: #041625;*/
+}
+.content h1{
+  font-size: 2.5rem;
+   font-family: 'Signika', sans-serif;
+   font-weight: bold;
+   color:#ffffff;
+}
+.content p{
+  font-family: 'Signika', sans-serif;
+   color:#c1c7cd;
+   padding: 1rem 0;
+}
+
+.btn-1 a{
+  text-decoration: none;
+  color:#ffffff;
+  background-color: #aa14cc;
+  padding:10px 40px;
+  border-radius:.1rem;
+}
+.btn-1{
+  margin-top: 1.56rem;
+  margin-bottom: 1.56rem;
+
+}
+.btn-2{
+  margin-bottom: 1.56rem;
+}
+.btn-2 a{
+ 
+  text-decoration: none;
+  color:#c1c7cd;
+  background-color: rgba(255,255,255,0.075);
+  border-radius:.1rem;
+  padding:10px 20.5px;
+  }
+
+.btn-3 a{
+  text-decoration: none;
+  color:#c1c7cd;
+  background-color: rgba(255,255,255,0.075);
+  border-radius:.1rem;
+  padding:10px 23px;
+  }
+
+.container-2{
+  display:flex;
+  justify-content: space-around;
+
+}
+.image_container{
+display:flex;
+justify-content: space-between;
+}
+
+img{
+  /*margin:.7rem;*/
 }
